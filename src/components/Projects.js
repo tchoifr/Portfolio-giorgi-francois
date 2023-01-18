@@ -26,25 +26,25 @@ export const Projects = () => {
     {
       id: 1,
       title: "Jeu pédagogique",
-      description: "Développement full stack",
+      description: "Développement full stack, React.js, Symfony",
       imgUrl: escapeGame,
     },
     {
       id: 2,
       title: "eauServiceDeBébé",
-      description: "Développement full stack",
+      description: "Développement full stack, React.js, Symfony",
       imgUrl: eauService,
     },
     {
       id: 3,
       title: "Euphoria",
-      description: "Développement full stack",
+      description: "Développement full stack, React.js, Symfony",
       imgUrl: euphoria,
     },
     {
       id: 4,
       title: "Natam",
-      description: "Développement front-end",
+      description: "Développement front-end, JavaScript",
       imgUrl: natam,
     },
     {
@@ -77,31 +77,31 @@ export const Projects = () => {
     {
       id: 8,
       title: "Gestion scolaire",
-      description: "Développement full stack",
+      description: "Développement full stack, Symfony, Twig",
       imgUrl: scolaire,
     },
     {
       id: 7,
       title: "Enchère en ligne",
-      description: "Développement full stack",
+      description: "Développement full stack, Java",
       imgUrl: enchere,
     },
     {
       id: 6,
       title: "Groupomania",
-      description: "Développement full stack",
+      description: "Développement full stack, React.js, Express",
       imgUrl: groupomania,
     },
     {
       id: 5,
       title: "Sauce piquante",
-      description: "Développement back-end",
+      description: "Développement back-end, Express",
       imgUrl: piment,
     },
     {
       id: 4,
       title: "Orinoco",
-      description: "Développement front-end dynamique",
+      description: "Développement front-end dynamique, JavaScript",
       imgUrl: orinoco,
     },
     {
@@ -113,13 +113,13 @@ export const Projects = () => {
     {
       id: 2,
       title: "OhMyFood",
-      description: "Développement front-end static",
+      description: "Développement front-end static, HTML5, Sass, Bootstrap5",
       imgUrl: ohmyfood,
     },
     {
       id: 1,
       title: "Réservia",
-      description: "Développement front-end static",
+      description: "Développement front-end static, HTML5, CSS3",
       imgUrl: reservia,
     },
   ];
@@ -129,13 +129,13 @@ export const Projects = () => {
     {
       id: 2,
       title: "Eni école informatique",
-      description: "Formation DWWM (Développeur Web et Web Mobile)",
+      description: "Formation DWWM (Développeur Web et Web Mobile), Java, Java POO, Java SE, Java JEE Html5, Css3, JavaScript MySQL, PL/SQL Php, symfony, Android studio",
       imgUrl: eni,
     },
     {
       id: 1,
       title: "Openclassrooms",
-      description: "Formation essentiellement front-end ",
+      description: "Formation essentiellement front-end, Html5, Css3, Sass Référencement SEO JavaScript, JQuery Express, MariaDB, React.js ",
       imgUrl: oc,
     },
   ];
