@@ -617,3 +617,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-top: 20px;
 }
 
+@media screen and (max-width:429px){
+  .banner h1{
+    font-size: 45px;
+  }
+  .project .nav.nav-pills .nav-link{
+    font-size: 10px;
+  }
+}
