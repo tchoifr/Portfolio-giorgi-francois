@@ -9,7 +9,7 @@ export const Banner = () => {
   const [isDeleting, setIsDeleting] = useState(false);
   const [text, setText] = useState('');
   const [delta, setDelta] = useState(300 - Math.random() * 100);
-  const [index, setIndex] = useState(1);
+  const [setIndex] = useState(1);
   const toRotate = [ "Développeur Full stack", "Développeur Front-end", "Développeur Back-end" ];
   const period = 2000;
 
@@ -65,7 +65,7 @@ export const Banner = () => {
             <TrackVisibility>
               {({ isVisible }) =>
                 <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-                  <img src={headerImg} alt="Header Img"/>
+                  <img src={headerImg} alt="Header espace"/>
                 </div>}
             </TrackVisibility>
           </Col>
