@@ -47,10 +47,6 @@ export const Skills = () => {
                                 <h5>JavaScript, JQuery, React.js, Express</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Java" />
-                                <h5>Java, Java POO, Java SE, Java JEE</h5>
-                            </div>
-                            <div className="item">
                                 <img src={meter2} alt="sql, plSQl" />
                                 <h5>SQL, PL/SQL </h5>
                             </div>
