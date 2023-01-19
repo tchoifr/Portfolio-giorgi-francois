@@ -4,7 +4,7 @@ export const ProjectCard = ({ title, description, imgUrl }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
-        <img style={{height:"345px"}} src={imgUrl} />
+        <img style={{height:"345px"}} src={imgUrl} alt="Projet Pro" />
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span>
@@ -17,7 +17,7 @@ export const ProjectCardScolaire = ({ title, description, imgUrl }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
-        <img style={{height:"345px"}} src={imgUrl} />
+        <img style={{height:"345px"}} src={imgUrl} alt="Projet Scolaire" />
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span>
@@ -30,7 +30,7 @@ export const FormationCard = ({ title, description, imgUrl }) => {
   return (
     <Col size={12} sm={6} md={4}>
       <div className="proj-imgbx">
-        <img style={{height:"345px"}} src={imgUrl} />
+        <img style={{height:"345px"}} src={imgUrl} alt="Carte Formation " />
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span>

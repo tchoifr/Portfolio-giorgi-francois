@@ -1,6 +1,5 @@
 import meter1 from "../assets/img/meter1.svg";
 import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
@@ -36,23 +35,23 @@ export const Skills = () => {
                         <p>Voici la liste de mes compétences acquises lors de mes formations et emplois.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt="Image" />
+                                <img src={meter1} alt="html, css, sass, seo" />
                                 <h5>HTML5, CSS3, Bootstrap5, Sass, Référencement SEO</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="php, symfony, android" />
                                 <h5>PHP8, Symfony6, Android studio</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="javaScript, react, express" />
                                 <h5>JavaScript, JQuery, React.js, Express</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="Java" />
                                 <h5>Java, Java POO, Java SE, Java JEE</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt="Image" />
+                                <img src={meter2} alt="sql, plSQl" />
                                 <h5>SQL, PL/SQL </h5>
                             </div>
                             
